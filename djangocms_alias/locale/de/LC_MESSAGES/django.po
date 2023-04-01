@@ -2,10 +2,10 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
 # Fabian Braun <fsbraun@gmx.de>, 2023
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15,23 +15,23 @@ msgstr ""
 "PO-Revision-Date: 2023-01-10 21:21+0000\n"
 "Last-Translator: Fabian Braun <fsbraun@gmx.de>, 2023\n"
 "Language-Team: German (https://www.transifex.com/divio/teams/58664/de/)\n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: admin.py:85
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: admin.py:96
 msgid "Modified"
-msgstr ""
+msgstr "Geändert"
 
 #: admin.py:130
 msgid "<i>Missing language</i>"
-msgstr ""
+msgstr "<i>Fehlende Sprache</i>"
 
 #: admin.py:190 cms_toolbars.py:93
 #: templates/djangocms_alias/alias_usage.html:46
@@ -39,8 +39,6 @@ msgid "View usage"
 msgstr "Verwendung anzeigen"
 
 #: admin.py:194
-#, fuzzy
-#| msgid "Delete alias"
 msgid "Delete Alias"
 msgstr "Alias löschen"
 
@@ -276,9 +274,9 @@ msgstr "Speichern"
 #: templates/admin/djangocms_alias/alias/delete_confirmation.html:15
 #, python-format
 msgid ""
-"You don't have permissions to delete %(object_name)s \"%(escaped_object)s\". "
-"Please request your site admin to add permissions to delete alias, or delete "
-"alias from all places that it being used."
+"You don't have permissions to delete %(object_name)s \"%(escaped_object)s\"."
+" Please request your site admin to add permissions to delete alias, or "
+"delete alias from all places that it being used."
 msgstr ""
 "Sie haben keine Berechtigung, %(object_name)s \"%(escaped_object)s\" zu "
 "löschen. Bitte fragen Sie Ihren Administrator, Ihnen die Rechte zum Löschen "
@@ -365,9 +363,3 @@ msgstr ""
 #: views.py:297
 msgid "Objects using alias: {}"
 msgstr "Objekte, die Alias nutzen: {}"
-
-#~ msgid "Rename alias"
-#~ msgstr "Alias umbenennen"
-
-#~ msgid "Current"
-#~ msgstr "Aktuell"
