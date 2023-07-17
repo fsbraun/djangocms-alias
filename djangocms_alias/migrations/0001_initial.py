@@ -46,7 +46,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='AliasPlugin',
             fields=[
-                ('cmsplugin_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, related_name='djangocms_alias_aliasplugin', serialize=False, to='cms.CMSPlugin')),
+                ('cmsplugin_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, related_name='%(app_label)s_%(class)s', serialize=False, to='cms.CMSPlugin')),
                 ('template', models.CharField(choices=get_templates(), default=TEMPLATE_DEFAULT, max_length=255, verbose_name='template')),
                 ('alias', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='cms_plugins', to='djangocms_alias.Alias', verbose_name='alias')),
             ],

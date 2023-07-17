@@ -2,6 +2,11 @@
 Changelog
 =========
 
+unpublished
+===========
+
+* Dynamically set language choices in AliasContent to prevent missing migrations
+
 2.0.0rc1
 ========
 * Django 4.0, 4.1, and 4.2 support added
