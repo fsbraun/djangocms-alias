@@ -168,6 +168,7 @@ class StaticAlias(Tag):
             return ""
 
         validate_placeholder_name(static_code)
+        context.update({"alias_static_code": static_code})
 
         toolbar = get_toolbar_from_request(request)
         renderer = toolbar.get_content_renderer()
